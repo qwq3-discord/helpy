@@ -5,7 +5,5 @@ module.exports = {
     once: true,
     async execute(client) {
         console.log("Ready and logged in as " + client.user.tag)
-
-        require('../modules/commandRegistry').execute(client)
     }
 }
